@@ -1,0 +1,100 @@
+.row, .col-md-8, .col-md-4, .col-md-6, .col-md-12 {
+    /*border: 1px solid red;*/
+    padding:0!important;
+}
+
+/* BASE.html */
+
+html, body {
+    margin:0 !important;
+    padding:0 !important;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color:rgb(246,246,246);
+    border-bottom: 1px solid rgb(230,230,230);
+    text-align: left;
+    overflow: hidden !important;
+
+}
+
+
+h1.website-title {
+    margin:20px;
+    font-size:30px;
+    font-weight:bold;
+    padding:0;
+}
+
+a.website-title {
+    color:black;
+}
+a.website-title:hover{
+    text-decoration:none;
+}
+
+
+
+/* INDEX.html */
+
+.home-jumbotron {
+    height:500px;
+    background-color:#42f4dc;
+}
+
+div.school-options-dropdown {
+    text-align: center;
+}
+
+.dropdown {
+    text-align:center;
+}
+
+.dropdown-menu {
+    text-align: center;
+    min-width:100%;
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+.school-options-btn {
+    background-color:rgb(240,240,240) !important;
+    border: 1px solid rgb(120,120,120) !important;
+    border-radius: 0;
+    margin-top:50px;
+    padding:10px 30px 10px 30px;
+}
+
+.school-options-btn:active {
+    background-color:red;
+}
+
+
+/* DETAIL.html */
+
+.detail-logo-row {
+    text-align:center;
+    padding: 30px!important;
+}
+
+.detail-logo-row h2 {
+    display: inline-block;
+    font-weight:bold;
+    font-size:100px;
+}
+
+.detail-logo-row img {
+    height:100px;
+    display:inline-block;
+}
+
+.detail-content-col {
+    text-align:center;
+}
+
+img.college-image {
+    width:100%;
+    height:auto;
+    display:block;
+}
